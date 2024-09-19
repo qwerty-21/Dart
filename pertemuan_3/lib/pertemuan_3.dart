@@ -1,5 +1,3 @@
-
-
 class Mobil {
   String merek;
   String model;
