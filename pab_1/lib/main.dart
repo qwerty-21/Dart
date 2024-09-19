@@ -1,20 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
-}
+  print("Hello, Word!");
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  String pesan = "Apa Kabar?";
 
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  print(pesan);
+
+  String teks1 = "Selamat";
+
+  String teks2 = "Pagi";
+
+  String teks3 = teks1 + "" + teks2;
+
+  print(teks3);
 }
